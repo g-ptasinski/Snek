@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/snek.dir/main.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/main.cpp",
+  "file": "/home/gptasinski/Pulpit/Snek/Snek/main.cpp"
+}
+]

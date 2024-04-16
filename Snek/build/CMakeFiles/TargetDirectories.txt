@@ -1,0 +1,7 @@
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/snek.dir
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/edit_cache.dir
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/rebuild_cache.dir
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/list_install_components.dir
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/install.dir
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/install/local.dir
+/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles/install/strip.dir
