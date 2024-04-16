@@ -18,6 +18,9 @@ Runtime=Host System
 [Project]
 VersionControlSupport=
 
+[SourceFileTemplates]
+LastUsedTemplate=/home/gptasinski/.local/share/kdevfiletemplates/template_descriptions/cpp_basic.desktop
+
 [SourceFormatter]
 UseDefault=false
 text/x-c++hdr=kdevastyle||Linux

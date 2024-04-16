@@ -69,28 +69,28 @@ include CMakeFiles/snek.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/snek.dir/flags.make
 
-CMakeFiles/snek.dir/main.cpp.o: CMakeFiles/snek.dir/flags.make
-CMakeFiles/snek.dir/main.cpp.o: ../main.cpp
-CMakeFiles/snek.dir/main.cpp.o: CMakeFiles/snek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snek.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snek.dir/main.cpp.o -MF CMakeFiles/snek.dir/main.cpp.o.d -o CMakeFiles/snek.dir/main.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/main.cpp
+CMakeFiles/snek.dir/src/main.cpp.o: CMakeFiles/snek.dir/flags.make
+CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/snek.dir/src/main.cpp.o: CMakeFiles/snek.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snek.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snek.dir/src/main.cpp.o -MF CMakeFiles/snek.dir/src/main.cpp.o.d -o CMakeFiles/snek.dir/src/main.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/main.cpp
 
-CMakeFiles/snek.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snek.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gptasinski/Pulpit/Snek/Snek/main.cpp > CMakeFiles/snek.dir/main.cpp.i
+CMakeFiles/snek.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snek.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gptasinski/Pulpit/Snek/Snek/src/main.cpp > CMakeFiles/snek.dir/src/main.cpp.i
 
-CMakeFiles/snek.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snek.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gptasinski/Pulpit/Snek/Snek/main.cpp -o CMakeFiles/snek.dir/main.cpp.s
+CMakeFiles/snek.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snek.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gptasinski/Pulpit/Snek/Snek/src/main.cpp -o CMakeFiles/snek.dir/src/main.cpp.s
 
 # Object files for target snek
 snek_OBJECTS = \
-"CMakeFiles/snek.dir/main.cpp.o"
+"CMakeFiles/snek.dir/src/main.cpp.o"
 
 # External object files for target snek
 snek_EXTERNAL_OBJECTS =
 
-snek: CMakeFiles/snek.dir/main.cpp.o
+snek: CMakeFiles/snek.dir/src/main.cpp.o
 snek: CMakeFiles/snek.dir/build.make
 snek: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 snek: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1

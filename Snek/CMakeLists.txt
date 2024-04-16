@@ -4,7 +4,7 @@ set(CMAKE_CXX_STANDARD 20)
 
 project(snek)
 
-add_executable(snek main.cpp)
+add_executable(snek src/main.cpp)
 
 find_package(SFML 2.5
   COMPONENTS

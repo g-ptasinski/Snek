@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/snek.dir/main.cpp.o"
-  "CMakeFiles/snek.dir/main.cpp.o.d"
+  "CMakeFiles/snek.dir/src/main.cpp.o"
+  "CMakeFiles/snek.dir/src/main.cpp.o.d"
   "snek"
   "snek.pdb"
 )

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/gptasinski/Pulpit/Snek/Snek/main.cpp" "CMakeFiles/snek.dir/main.cpp.o" "gcc" "CMakeFiles/snek.dir/main.cpp.o.d"
+  "/home/gptasinski/Pulpit/Snek/Snek/src/main.cpp" "CMakeFiles/snek.dir/src/main.cpp.o" "gcc" "CMakeFiles/snek.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.
