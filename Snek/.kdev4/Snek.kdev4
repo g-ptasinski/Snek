@@ -1,2 +1,29 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x08\x00S\x00n\x00e\x00k)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/gptasinski/Pulpit/Snek/Snek/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
 [Project]
 VersionControlSupport=
+
+[SourceFormatter]
+UseDefault=false
+text/x-c++hdr=kdevastyle||Linux
+text/x-c++src=kdevastyle||Linux
+text/x-chdr=kdevcustomscript||GNU_indent_GNU
+text/x-csharp=kdevcustomscript||GNU_indent_GNU
+text/x-csrc=kdevcustomscript||GNU_indent_GNU
+text/x-java=kdevcustomscript||GNU_indent_GNU
+text/x-objcsrc=kdevcustomscript||GNU_indent_GNU

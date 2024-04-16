@@ -92,6 +92,9 @@ snek_EXTERNAL_OBJECTS =
 
 snek: CMakeFiles/snek.dir/main.cpp.o
 snek: CMakeFiles/snek.dir/build.make
+snek: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
+snek: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
+snek: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 snek: CMakeFiles/snek.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable snek"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snek.dir/link.txt --verbose=$(VERBOSE)
