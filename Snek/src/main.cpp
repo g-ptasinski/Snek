@@ -1,4 +1,5 @@
 #include <iostream>
+#include "../include/state.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <SFML/System.hpp>

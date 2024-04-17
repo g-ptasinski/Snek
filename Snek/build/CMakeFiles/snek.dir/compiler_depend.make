@@ -193,6 +193,7 @@ CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  ../include/state.h \
   /usr/include/SFML/Graphics.hpp \
   /usr/include/SFML/Window.hpp \
   /usr/include/SFML/System.hpp \
@@ -376,6 +377,8 @@ CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/SFML/Window/Clipboard.hpp:
 
 /usr/include/SFML/System/Vector3.inl:
+
+/usr/include/SFML/System/Vector2.hpp:
 
 /usr/include/SFML/Graphics/RenderTexture.hpp:
 
@@ -857,6 +860,8 @@ CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/11/bits/istream.tcc:
 
+../include/state.h:
+
 /usr/include/SFML/Config.hpp:
 
 /usr/include/c++/11/unordered_map:
@@ -890,8 +895,6 @@ CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/SFML/System/Vector2.hpp:
 
 /usr/include/c++/11/bits/ptr_traits.h:
 
