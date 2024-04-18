@@ -5,23 +5,26 @@
 #ifndef STATE_H
 #define STATE_H
 
+#include <SFML/System/Time.hpp>
+
 namespace Engine
 {
     class State
     {
-    public:
-        /**
-        * Default constructor
-        */
-        State();
-
-        /**
-        * Destructor
-        */
-        ~State();
-
     private:
 
+
+    public:
+        State();
+        virtual ~State(){};
+
+        virtual void Init() = 0;
+        virtual void Update(sf::Time deltaTime) = 0;
+        virtual void Pause();
+        virtual void Start();
+
+        virtual void ProcessInput() = 0;
+        virtual void Draw() = 0;
 
     };
 }
