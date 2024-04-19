@@ -16,12 +16,12 @@ namespace Engine
 
     public:
         State();
-        virtual ~State(){};
+        virtual ~State();
 
         virtual void Init() = 0;
         virtual void Update(sf::Time deltaTime) = 0;
-        virtual void Pause();
-        virtual void Start();
+        virtual void Pause() = 0;
+        virtual void Start() = 0;
 
         virtual void ProcessInput() = 0;
         virtual void Draw() = 0;

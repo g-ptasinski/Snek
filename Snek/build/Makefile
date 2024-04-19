@@ -174,6 +174,54 @@ snek/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/build
 .PHONY : snek/fast
 
+src/assetmanager.o: src/assetmanager.cpp.o
+.PHONY : src/assetmanager.o
+
+# target to build an object file
+src/assetmanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/assetmanager.cpp.o
+.PHONY : src/assetmanager.cpp.o
+
+src/assetmanager.i: src/assetmanager.cpp.i
+.PHONY : src/assetmanager.i
+
+# target to preprocess a source file
+src/assetmanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/assetmanager.cpp.i
+.PHONY : src/assetmanager.cpp.i
+
+src/assetmanager.s: src/assetmanager.cpp.s
+.PHONY : src/assetmanager.s
+
+# target to generate assembly for a file
+src/assetmanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/assetmanager.cpp.s
+.PHONY : src/assetmanager.cpp.s
+
+src/game.o: src/game.cpp.o
+.PHONY : src/game.o
+
+# target to build an object file
+src/game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/game.cpp.o
+.PHONY : src/game.cpp.o
+
+src/game.i: src/game.cpp.i
+.PHONY : src/game.i
+
+# target to preprocess a source file
+src/game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/game.cpp.i
+.PHONY : src/game.cpp.i
+
+src/game.s: src/game.cpp.s
+.PHONY : src/game.s
+
+# target to generate assembly for a file
+src/game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/game.cpp.s
+.PHONY : src/game.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -198,6 +246,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/state.o: src/state.cpp.o
+.PHONY : src/state.o
+
+# target to build an object file
+src/state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/state.cpp.o
+.PHONY : src/state.cpp.o
+
+src/state.i: src/state.cpp.i
+.PHONY : src/state.i
+
+# target to preprocess a source file
+src/state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/state.cpp.i
+.PHONY : src/state.cpp.i
+
+src/state.s: src/state.cpp.s
+.PHONY : src/state.s
+
+# target to generate assembly for a file
+src/state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/state.cpp.s
+.PHONY : src/state.cpp.s
+
+src/statemanager.o: src/statemanager.cpp.o
+.PHONY : src/statemanager.o
+
+# target to build an object file
+src/statemanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/statemanager.cpp.o
+.PHONY : src/statemanager.cpp.o
+
+src/statemanager.i: src/statemanager.cpp.i
+.PHONY : src/statemanager.i
+
+# target to preprocess a source file
+src/statemanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/statemanager.cpp.i
+.PHONY : src/statemanager.cpp.i
+
+src/statemanager.s: src/statemanager.cpp.s
+.PHONY : src/statemanager.s
+
+# target to generate assembly for a file
+src/statemanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/statemanager.cpp.s
+.PHONY : src/statemanager.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,9 +307,21 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... snek"
+	@echo "... src/assetmanager.o"
+	@echo "... src/assetmanager.i"
+	@echo "... src/assetmanager.s"
+	@echo "... src/game.o"
+	@echo "... src/game.i"
+	@echo "... src/game.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/state.o"
+	@echo "... src/state.i"
+	@echo "... src/state.s"
+	@echo "... src/statemanager.o"
+	@echo "... src/statemanager.i"
+	@echo "... src/statemanager.s"
 .PHONY : help
 
 

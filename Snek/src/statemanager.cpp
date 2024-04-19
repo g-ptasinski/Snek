@@ -57,5 +57,5 @@ void Engine::StateManager::ProcessStateChange()
 
 std::unique_ptr<Engine::State> &Engine::StateManager::GetCurrentState()
 {
-        return _stateStack.top();
+        return m_stateStack.top();
 }

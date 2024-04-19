@@ -16,7 +16,7 @@ void Engine::AssetManager::AddTexture(int id, const std::string &filePath, bool 
 
     if(texture->loadFromFile(filePath))
     {
-        texture=>setRepeated(wantRepeated);
+        texture->setRepeated(wantRepeated);
         m_texture[id] = std::move(texture);
     }
 
