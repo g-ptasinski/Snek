@@ -194,13 +194,13 @@ CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
   ../include/state.h \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/Config.hpp \
   /usr/include/SFML/Graphics.hpp \
   /usr/include/SFML/Window.hpp \
   /usr/include/SFML/System.hpp \
-  /usr/include/SFML/Config.hpp \
   /usr/include/SFML/System/Clock.hpp \
-  /usr/include/SFML/System/Export.hpp \
-  /usr/include/SFML/System/Time.hpp \
   /usr/include/SFML/System/Err.hpp \
   /usr/include/SFML/System/FileInputStream.hpp \
   /usr/include/SFML/System/InputStream.hpp \
@@ -862,11 +862,11 @@ CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp \
 
 ../include/state.h:
 
-/usr/include/SFML/Config.hpp:
-
 /usr/include/c++/11/unordered_map:
 
 /usr/include/SFML/System/Time.hpp:
+
+/usr/include/SFML/Config.hpp:
 
 /usr/include/SFML/Window.hpp:
 

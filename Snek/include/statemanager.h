@@ -8,6 +8,7 @@
 #include <memory>
 
 #include "state.h"
+#include "assetmanager.h"
 
 namespace Engine
 {
