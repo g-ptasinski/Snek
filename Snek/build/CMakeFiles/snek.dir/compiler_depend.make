@@ -1312,6 +1312,7 @@ CMakeFiles/snek.dir/src/mainmenu.cpp.o: ../src/mainmenu.cpp \
   /usr/include/SFML/Graphics/VertexArray.hpp \
   /usr/include/SFML/Graphics/Vertex.hpp \
   /usr/include/SFML/Graphics/PrimitiveType.hpp \
+  /usr/include/SFML/Window/Keyboard.hpp \
   ../include/state.h \
   /usr/include/SFML/System/Time.hpp \
   ../include/game.h \
@@ -1346,7 +1347,6 @@ CMakeFiles/snek.dir/src/mainmenu.cpp.o: ../src/mainmenu.cpp \
   /usr/include/SFML/Window/Context.hpp \
   /usr/include/SFML/Window/Event.hpp \
   /usr/include/SFML/Window/Joystick.hpp \
-  /usr/include/SFML/Window/Keyboard.hpp \
   /usr/include/SFML/Window/Mouse.hpp \
   /usr/include/SFML/Window/Sensor.hpp \
   /usr/include/SFML/Window/Touch.hpp \
