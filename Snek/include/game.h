@@ -13,6 +13,11 @@
 #ifndef GAME_H
 #define GAME_H
 
+enum AssetID
+{
+    MAIN_FONT = 0
+};
+
 
 struct Context
 {

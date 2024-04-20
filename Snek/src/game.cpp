@@ -1,8 +1,10 @@
 #include "../include/game.h"
+#include "../include/mainmenu.h"
 
 Game::Game() : m_context(std::make_shared<Context>())
 {
     m_context->m_window->create(sf::VideoMode(800,600), "SNEK", sf::Style::Close);
+    m_context->m_states->AddNewState(std::make_unique<MainMenu>(m_context));
 }
 
 Game::~Game()
@@ -22,16 +24,15 @@ void Game::Run()
     {
         timeSinceLastFrame += clock.restart();
 
-        sf::Event event;
-
-        while(m_context->m_window->pollEvent(event))
+        while(timeSinceLastFrame > TIME_PER_FRAME)
         {
-            if(event.type == sf::Event::Closed)
-                m_context->m_window->close();
-        }
+            timeSinceLastFrame-=TIME_PER_FRAME;
 
-        m_context->m_window->clear();
-        m_context->m_window->draw(shape);
-        m_context->m_window->display();
+
+            m_context->m_states->ProcessStateChange();
+            m_context->m_states->GetCurrentState()->ProcessInput();
+            m_context->m_states->GetCurrentState()->Update(TIME_PER_FRAME);
+            m_context->m_states->GetCurrentState()->Draw();
+        }
     }
 }

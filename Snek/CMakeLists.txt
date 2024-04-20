@@ -6,11 +6,14 @@ project(snek)
 
 add_executable(snek
 
-    src/game.cpp
+
     src/state.cpp
     src/statemanager.cpp
     src/assetmanager.cpp
+    src/mainmenu.cpp
+    src/game.cpp
     src/main.cpp
+
     )
 
 find_package(SFML 2.5

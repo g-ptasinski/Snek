@@ -1,11 +1,6 @@
 [
 {
   "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
-  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/game.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/game.cpp",
-  "file": "/home/gptasinski/Pulpit/Snek/Snek/src/game.cpp"
-},
-{
-  "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
   "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/state.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/state.cpp",
   "file": "/home/gptasinski/Pulpit/Snek/Snek/src/state.cpp"
 },
@@ -18,6 +13,16 @@
   "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
   "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/assetmanager.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/assetmanager.cpp",
   "file": "/home/gptasinski/Pulpit/Snek/Snek/src/assetmanager.cpp"
+},
+{
+  "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/mainmenu.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/mainmenu.cpp",
+  "file": "/home/gptasinski/Pulpit/Snek/Snek/src/mainmenu.cpp"
+},
+{
+  "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/game.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/game.cpp",
+  "file": "/home/gptasinski/Pulpit/Snek/Snek/src/game.cpp"
 },
 {
   "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
