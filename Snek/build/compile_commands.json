@@ -21,6 +21,11 @@
 },
 {
   "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
+  "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/gameplay.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp",
+  "file": "/home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp"
+},
+{
+  "directory": "/home/gptasinski/Pulpit/Snek/Snek/build",
   "command": "/usr/bin/c++   -g -std=gnu++20 -o CMakeFiles/snek.dir/src/game.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/game.cpp",
   "file": "/home/gptasinski/Pulpit/Snek/Snek/src/game.cpp"
 },

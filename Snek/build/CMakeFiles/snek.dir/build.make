@@ -125,10 +125,24 @@ CMakeFiles/snek.dir/src/mainmenu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snek.dir/src/mainmenu.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gptasinski/Pulpit/Snek/Snek/src/mainmenu.cpp -o CMakeFiles/snek.dir/src/mainmenu.cpp.s
 
+CMakeFiles/snek.dir/src/gameplay.cpp.o: CMakeFiles/snek.dir/flags.make
+CMakeFiles/snek.dir/src/gameplay.cpp.o: ../src/gameplay.cpp
+CMakeFiles/snek.dir/src/gameplay.cpp.o: CMakeFiles/snek.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snek.dir/src/gameplay.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snek.dir/src/gameplay.cpp.o -MF CMakeFiles/snek.dir/src/gameplay.cpp.o.d -o CMakeFiles/snek.dir/src/gameplay.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp
+
+CMakeFiles/snek.dir/src/gameplay.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/snek.dir/src/gameplay.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp > CMakeFiles/snek.dir/src/gameplay.cpp.i
+
+CMakeFiles/snek.dir/src/gameplay.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/snek.dir/src/gameplay.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp -o CMakeFiles/snek.dir/src/gameplay.cpp.s
+
 CMakeFiles/snek.dir/src/game.cpp.o: CMakeFiles/snek.dir/flags.make
 CMakeFiles/snek.dir/src/game.cpp.o: ../src/game.cpp
 CMakeFiles/snek.dir/src/game.cpp.o: CMakeFiles/snek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/snek.dir/src/game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snek.dir/src/game.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snek.dir/src/game.cpp.o -MF CMakeFiles/snek.dir/src/game.cpp.o.d -o CMakeFiles/snek.dir/src/game.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/game.cpp
 
 CMakeFiles/snek.dir/src/game.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/snek.dir/src/game.cpp.s: cmake_force
 CMakeFiles/snek.dir/src/main.cpp.o: CMakeFiles/snek.dir/flags.make
 CMakeFiles/snek.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/snek.dir/src/main.cpp.o: CMakeFiles/snek.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/snek.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/snek.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snek.dir/src/main.cpp.o -MF CMakeFiles/snek.dir/src/main.cpp.o.d -o CMakeFiles/snek.dir/src/main.cpp.o -c /home/gptasinski/Pulpit/Snek/Snek/src/main.cpp
 
 CMakeFiles/snek.dir/src/main.cpp.i: cmake_force
@@ -159,6 +173,7 @@ snek_OBJECTS = \
 "CMakeFiles/snek.dir/src/statemanager.cpp.o" \
 "CMakeFiles/snek.dir/src/assetmanager.cpp.o" \
 "CMakeFiles/snek.dir/src/mainmenu.cpp.o" \
+"CMakeFiles/snek.dir/src/gameplay.cpp.o" \
 "CMakeFiles/snek.dir/src/game.cpp.o" \
 "CMakeFiles/snek.dir/src/main.cpp.o"
 
@@ -169,6 +184,7 @@ snek: CMakeFiles/snek.dir/src/state.cpp.o
 snek: CMakeFiles/snek.dir/src/statemanager.cpp.o
 snek: CMakeFiles/snek.dir/src/assetmanager.cpp.o
 snek: CMakeFiles/snek.dir/src/mainmenu.cpp.o
+snek: CMakeFiles/snek.dir/src/gameplay.cpp.o
 snek: CMakeFiles/snek.dir/src/game.cpp.o
 snek: CMakeFiles/snek.dir/src/main.cpp.o
 snek: CMakeFiles/snek.dir/build.make
@@ -176,7 +192,7 @@ snek: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 snek: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 snek: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 snek: CMakeFiles/snek.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable snek"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable snek"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/snek.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

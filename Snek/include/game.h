@@ -15,7 +15,11 @@
 
 enum AssetID
 {
-    MAIN_FONT = 0
+    MAIN_FONT = 0,
+    GRASS,
+    FOOD,
+    SNAKE,
+    WALL
 };
 
 

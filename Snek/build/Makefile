@@ -222,6 +222,30 @@ src/game.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
 
+src/gameplay.o: src/gameplay.cpp.o
+.PHONY : src/gameplay.o
+
+# target to build an object file
+src/gameplay.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/gameplay.cpp.o
+.PHONY : src/gameplay.cpp.o
+
+src/gameplay.i: src/gameplay.cpp.i
+.PHONY : src/gameplay.i
+
+# target to preprocess a source file
+src/gameplay.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/gameplay.cpp.i
+.PHONY : src/gameplay.cpp.i
+
+src/gameplay.s: src/gameplay.cpp.s
+.PHONY : src/gameplay.s
+
+# target to generate assembly for a file
+src/gameplay.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/src/gameplay.cpp.s
+.PHONY : src/gameplay.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -337,6 +361,9 @@ help:
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/gameplay.o"
+	@echo "... src/gameplay.i"
+	@echo "... src/gameplay.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

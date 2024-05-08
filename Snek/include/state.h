@@ -5,7 +5,6 @@
 
 #include <SFML/System/Time.hpp>
 
-//test
 
 namespace Engine
 {
@@ -18,10 +17,10 @@ namespace Engine
         State();
         virtual ~State();
 
-        virtual void Init() = 0;
+        virtual void Init()                     = 0;
         virtual void Update(sf::Time deltaTime) = 0;
-        virtual void ProcessInput() = 0;
-        virtual void Draw() = 0;
+        virtual void ProcessInput()             = 0;
+        virtual void Draw()                     = 0;
 
         virtual void Pause(){};
         virtual void Start(){};

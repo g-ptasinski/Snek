@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/snek.dir/src/assetmanager.cpp.o.d"
   "CMakeFiles/snek.dir/src/game.cpp.o"
   "CMakeFiles/snek.dir/src/game.cpp.o.d"
+  "CMakeFiles/snek.dir/src/gameplay.cpp.o"
+  "CMakeFiles/snek.dir/src/gameplay.cpp.o.d"
   "CMakeFiles/snek.dir/src/main.cpp.o"
   "CMakeFiles/snek.dir/src/main.cpp.o.d"
   "CMakeFiles/snek.dir/src/mainmenu.cpp.o"
