@@ -5,11 +5,11 @@ Gameplay::Gameplay(std::shared_ptr<Context> &context)
 {
 }
 
-Gameplay::~Gameplay
+Gameplay::~Gameplay()
 {
 }
 
-Gameplay::Init()
+void Gameplay::Init()
 {
     m_context->m_assets->AddTexture(SNAKE, "../assets/textures/snake.png");
     m_context->m_assets->AddTexture(WALL, "../assets/textures/wall.png", true);
@@ -17,26 +17,30 @@ Gameplay::Init()
     m_context->m_assets->AddTexture(FOOD, "../assets/textures/food.png");
 
     m_grass.setTexture(m_context->m_assets->GetTexture(GRASS));
+    m_grass.setTextureRect(m_context->m_window->getViewport(m_context->m_window->getDefaultView()));
 }
 
-Gameplay::Update(sf::Time deltaTime)
+void Gameplay::Update(sf::Time deltaTime)
 {
 
 }
 
 
-Gameplay::ProcessInput()
+void Gameplay::ProcessInput()
 {
 }
 
-Gameplay::Draw()
+void Gameplay::Draw()
+{
+    m_context->m_window->clear();
+    m_context->m_window->draw(m_grass);
+    m_context->m_window->display();
+}
+
+void Gameplay::Pause()
 {
 }
 
-Gameplay::Pause()
-{
-}
-
-Gameplay::Start()
+void Gameplay::Start()
 {
 }
