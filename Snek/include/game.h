@@ -9,6 +9,7 @@
 
 #include "assetmanager.h"
 #include "statemanager.h"
+#include "snake.h"
 
 #ifndef GAME_H
 #define GAME_H

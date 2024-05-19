@@ -1,7 +1,7 @@
 #include "../include/gameplay.h"
 
 Gameplay::Gameplay(std::shared_ptr<Context> &context)
-    : m_context(context)
+    : m_context(context), m_snakeDirection({16.f, 0.f}), m_ElapsedTime(sf::Time::Zero)
 {
 }
 
@@ -28,31 +28,72 @@ void Gameplay::Init()
     }
 
     int WallWidth = 16;
+    int Window_Width = m_context->m_window->getSize().x;
+    int Window_Height = m_context->m_window->getSize().y;
 
-    m_walls[0].setTextureRect({0,0,     m_context->m_window->getSize().x,WallWidth});
-    m_walls[1].setTextureRect({0,0,     WallWidth,m_context->m_window->getSize().y});
-    m_walls[2].setTextureRect({0,0,     m_context->m_window->getSize().x,WallWidth});
-    m_walls[3].setTextureRect({0,0,     WallWidth,m_context->m_window->getSize().y});
+
+    m_walls[0].setTextureRect({0,0,     Window_Width,WallWidth});
+    m_walls[1].setTextureRect({0,0,     WallWidth,Window_Height });
+    m_walls[2].setTextureRect({0,0,     Window_Width,WallWidth});
+    m_walls[3].setTextureRect({0,0,     WallWidth,Window_Height });
 
     m_walls[2].setPosition(0, static_cast<float>(m_context->m_window->getSize().y - WallWidth));
     m_walls[3].setPosition(static_cast<float>(m_context->m_window->getSize().x - WallWidth), 0);
+
+    m_snake.Init(m_context->m_assets->GetTexture(SNAKE));
+
 }
 
 void Gameplay::Update(sf::Time deltaTime)
 {
+    m_ElapsedTime += deltaTime;
 
+    if (m_ElapsedTime.asSeconds() >= 0.05)
+    {
+        m_snake.Move(m_snakeDirection);
+        m_ElapsedTime = sf::Time::Zero;
+    }
+    
 }
 
 
 void Gameplay::ProcessInput()
 {
     sf::Event event;
+    sf::Vector2f newDirection;
 
     while(m_context->m_window->pollEvent(event))
     {
         if(event.type == sf::Event::Closed)
         {
             m_context->m_window->close();
+        }
+        else if (event.type == sf::Event::KeyPressed)
+        {
+            switch (event.key.code)
+            {
+            case sf::Keyboard::Up:
+                newDirection = { 0.f, -16.f };
+                break;
+            case sf::Keyboard::Down:
+                newDirection = { 0.f, 16.f };
+                break;
+            case sf::Keyboard::Left:
+                newDirection = { -16.f, 0.f };
+                break;
+            case sf::Keyboard::Right:
+                newDirection = { 16.f, 0.f };
+                break;
+
+            default:
+                break;
+            }
+
+            if (std::abs(newDirection.x) != std::abs(m_snakeDirection.x) ||
+                std::abs(newDirection.y) != std::abs(m_snakeDirection.y))
+            {
+                m_snakeDirection = newDirection;
+            }
         }
     }
 }
@@ -69,6 +110,7 @@ void Gameplay::Draw()
     }
 
     m_context->m_window->draw(m_food);
+    m_context->m_window->draw(m_snake);
     m_context->m_window->display();
 }
 

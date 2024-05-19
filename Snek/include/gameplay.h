@@ -8,6 +8,7 @@
 
 #include "state.h"
 #include "game.h"
+#include "snake.h"
 
 #ifndef GAMEPLAY_H
 #define GAMEPLAY_H
@@ -19,7 +20,12 @@ private:
     std::shared_ptr<Context> m_context;
     sf::Sprite m_grass;
     sf::Sprite m_food;
+    Snake m_snake;
     std::array<sf::Sprite, 4> m_walls;
+
+    sf::Vector2f m_snakeDirection;
+    sf::Time m_ElapsedTime;
+    
 
 public:
 
