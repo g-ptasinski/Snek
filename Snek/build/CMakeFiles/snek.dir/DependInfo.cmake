@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp" "CMakeFiles/snek.dir/src/gameplay.cpp.o" "gcc" "CMakeFiles/snek.dir/src/gameplay.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/main.cpp" "CMakeFiles/snek.dir/src/main.cpp.o" "gcc" "CMakeFiles/snek.dir/src/main.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/mainmenu.cpp" "CMakeFiles/snek.dir/src/mainmenu.cpp.o" "gcc" "CMakeFiles/snek.dir/src/mainmenu.cpp.o.d"
+  "/home/gptasinski/Pulpit/Snek/Snek/src/snake.cpp" "CMakeFiles/snek.dir/src/snake.cpp.o" "gcc" "CMakeFiles/snek.dir/src/snake.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/state.cpp" "CMakeFiles/snek.dir/src/state.cpp.o" "gcc" "CMakeFiles/snek.dir/src/state.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/statemanager.cpp" "CMakeFiles/snek.dir/src/statemanager.cpp.o" "gcc" "CMakeFiles/snek.dir/src/statemanager.cpp.o.d"
   )

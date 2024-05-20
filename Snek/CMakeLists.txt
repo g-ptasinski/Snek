@@ -6,7 +6,7 @@ project(snek)
 
 add_executable(snek
 
-
+    src/snake.cpp
     src/state.cpp
     src/statemanager.cpp
     src/assetmanager.cpp

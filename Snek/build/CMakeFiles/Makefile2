@@ -81,12 +81,12 @@ clean: CMakeFiles/snek.dir/clean
 CMakeFiles/snek.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/snek.dir/build.make CMakeFiles/snek.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target snek"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target snek"
 .PHONY : CMakeFiles/snek.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/snek.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/snek.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gptasinski/Pulpit/Snek/Snek/build/CMakeFiles 0
 .PHONY : CMakeFiles/snek.dir/rule

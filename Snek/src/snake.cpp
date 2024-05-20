@@ -1,6 +1,6 @@
 #include "../include/snake.h"
 
-Snake::Snake() :m_body(std::list<sf::Sprite>(5))
+Snake::Snake() :m_body(std::list<sf::Sprite>(4))
 {
 	m_head = --m_body.end();
 	m_tail = m_body.begin();
@@ -30,7 +30,7 @@ void Snake::Move(const sf::Vector2f &direction)
 
 	if (m_tail == m_body.end())
 	{
-		m_tail == m_body.begin();
+		m_tail = m_body.begin();
 	}
 }
 bool Snake::IsOn(const sf::Sprite& other) const

@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/snek.dir/src/main.cpp.o.d"
   "CMakeFiles/snek.dir/src/mainmenu.cpp.o"
   "CMakeFiles/snek.dir/src/mainmenu.cpp.o.d"
+  "CMakeFiles/snek.dir/src/snake.cpp.o"
+  "CMakeFiles/snek.dir/src/snake.cpp.o.d"
   "CMakeFiles/snek.dir/src/state.cpp.o"
   "CMakeFiles/snek.dir/src/state.cpp.o.d"
   "CMakeFiles/snek.dir/src/statemanager.cpp.o"
