@@ -3,7 +3,7 @@
 
 Game::Game() : m_context(std::make_shared<Context>())
 {
-    m_context->m_window->create(sf::VideoMode(800,600), "SNEK", sf::Style::Close);
+    m_context->m_window->create(sf::VideoMode(800,640), "SNEK", sf::Style::Close);
     m_context->m_states->AddNewState(std::make_unique<MainMenu>(m_context));
 }
 

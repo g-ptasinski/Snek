@@ -3,6 +3,7 @@
 Gameplay::Gameplay(std::shared_ptr<Context> &context)
     : m_context(context), m_snakeDirection({16.f, 0.f}), m_ElapsedTime(sf::Time::Zero)
 {
+    srand(time(nullptr));
 }
 
 Gameplay::~Gameplay()
@@ -50,7 +51,21 @@ void Gameplay::Update(sf::Time deltaTime)
 
     if (m_ElapsedTime.asSeconds() >= 0.05)
     {
-        m_snake.Move(m_snakeDirection);
+        if(m_snake.IsOn(m_food))
+        {
+            m_snake.Grow(m_snakeDirection);
+            int x=0;
+            int y=0;
+
+            x = std::clamp<int>(16*rand() % m_context->m_window->getSize().x, 16, m_context->m_window->getSize().x -2*16);
+            y = std::clamp<int>(16*rand() % m_context->m_window->getSize().y, 16, m_context->m_window->getSize().y -2*16);
+
+            m_food.setPosition(x,y);
+        }
+        else
+        {
+            m_snake.Move(m_snakeDirection);
+        }
         m_ElapsedTime = sf::Time::Zero;
     }
     

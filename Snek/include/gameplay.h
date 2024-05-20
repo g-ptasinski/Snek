@@ -10,6 +10,10 @@
 #include "game.h"
 #include "snake.h"
 
+#include <stdlib.h>
+#include <time.h>
+#include <cmath>
+
 #ifndef GAMEPLAY_H
 #define GAMEPLAY_H
 
