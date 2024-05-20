@@ -1,4 +1,5 @@
 #include "../include/gameplay.h"
+#include "../include/gameover.h"
 
 Gameplay::Gameplay(std::shared_ptr<Context> &context)
     : m_context(context), m_snakeDirection({16.f, 0.f}), m_ElapsedTime(sf::Time::Zero)
@@ -51,6 +52,15 @@ void Gameplay::Update(sf::Time deltaTime)
 
     if (m_ElapsedTime.asSeconds() >= 0.05)
     {
+        for(auto &wall : m_walls)
+        {
+            if(m_snake.IsOn(wall))
+            {
+                m_context->m_states->AddNewState(std::make_unique<Gameover>(m_context), true);
+                break;
+            }
+        }
+
         if(m_snake.IsOn(m_food))
         {
             m_snake.Grow(m_snakeDirection);

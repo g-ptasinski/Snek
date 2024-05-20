@@ -9,6 +9,7 @@
 #include "state.h"
 #include "game.h"
 #include "snake.h"
+#include "gameover.h"
 
 #include <stdlib.h>
 #include <time.h>

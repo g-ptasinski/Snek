@@ -10,6 +10,7 @@ add_executable(snek
     src/state.cpp
     src/statemanager.cpp
     src/assetmanager.cpp
+    src/gameover.cpp
     src/mainmenu.cpp
     src/gameplay.cpp
     src/game.cpp

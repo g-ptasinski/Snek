@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/gptasinski/Pulpit/Snek/Snek/src/assetmanager.cpp" "CMakeFiles/snek.dir/src/assetmanager.cpp.o" "gcc" "CMakeFiles/snek.dir/src/assetmanager.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/game.cpp" "CMakeFiles/snek.dir/src/game.cpp.o" "gcc" "CMakeFiles/snek.dir/src/game.cpp.o.d"
+  "/home/gptasinski/Pulpit/Snek/Snek/src/gameover.cpp" "CMakeFiles/snek.dir/src/gameover.cpp.o" "gcc" "CMakeFiles/snek.dir/src/gameover.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/gameplay.cpp" "CMakeFiles/snek.dir/src/gameplay.cpp.o" "gcc" "CMakeFiles/snek.dir/src/gameplay.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/main.cpp" "CMakeFiles/snek.dir/src/main.cpp.o" "gcc" "CMakeFiles/snek.dir/src/main.cpp.o.d"
   "/home/gptasinski/Pulpit/Snek/Snek/src/mainmenu.cpp" "CMakeFiles/snek.dir/src/mainmenu.cpp.o" "gcc" "CMakeFiles/snek.dir/src/mainmenu.cpp.o.d"
