@@ -61,6 +61,15 @@ void Gameplay::Update(sf::Time deltaTime)
             }
         }
 
+        /*for(auto &piece : m_snake.GetBody())
+        {
+            if(m_snake.IsOn(piece))
+            {
+                m_context->m_states->AddNewState(std::make_unique<Gameover>(m_context), true);
+                break;
+            }
+        }*/
+
         if(m_snake.IsOn(m_food))
         {
             m_snake.Grow(m_snakeDirection);
@@ -108,6 +117,9 @@ void Gameplay::ProcessInput()
                 break;
             case sf::Keyboard::Right:
                 newDirection = { 16.f, 0.f };
+                break;
+            case sf::Keyboard::Escape:
+                //Pause state
                 break;
 
             default:
