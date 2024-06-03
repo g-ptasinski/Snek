@@ -61,9 +61,12 @@ void Gameplay::Update(sf::Time deltaTime)
             }
         }
 
-        /*for(auto &piece : m_snake.GetBody())
+/*        for(auto iterator = m_snake.GetBody().begin();  iterator != --m_snake.GetBody().end(); iterator++)
         {
-            if(m_snake.IsOn(piece))
+
+            sf::Vector2f tempPos = iterator->getPosition();
+
+            if(tempPos == m_snake.GetHead()->getPosition())
             {
                 m_context->m_states->AddNewState(std::make_unique<Gameover>(m_context), true);
                 break;

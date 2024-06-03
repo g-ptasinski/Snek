@@ -19,6 +19,7 @@
         std::list<sf::Sprite> m_body;
         std::list<sf::Sprite>::iterator m_head;
         std::list<sf::Sprite>::iterator m_tail;
+        ;
 
     public:
         Snake();
@@ -28,7 +29,9 @@
         void Move(const sf::Vector2f& direction);
         bool IsOn(const sf::Sprite& other) const;
         void Grow(const sf::Vector2f& direction);
+
         std::list<sf::Sprite> GetBody();
+        std::list<sf::Sprite>::iterator GetHead();
 
         virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
 

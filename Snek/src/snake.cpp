@@ -43,6 +43,12 @@ std::list<sf::Sprite> Snake::GetBody()
 	return m_body;
 }
 
+std::list<sf::Sprite>::iterator Snake::GetHead()
+{
+	return m_head;
+}
+
+
 void Snake::Grow(const sf::Vector2f& direction)
 {
 	sf::Sprite newPiece;
@@ -59,3 +65,5 @@ void Snake::draw(sf:: RenderTarget& target, sf::RenderStates states) const
 		target.draw(piece);
 	}
 }
+
+
